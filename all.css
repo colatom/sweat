@@ -685,7 +685,7 @@ input{
   cursor: pointer;
   transition: 0.5s;
 }
-.order button{
+.order button:hover{
   background-color: #3F5D45;
   color: white;
 }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>甜點電商</title>
+  <link rel="stylesheet" href="all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+  <div id="app">
+    <div class="topbar">
+      <img src="img/logo-all-dark.svg" alt="">
+      <ul>
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="product.html">甜點</a></li>
+        <li><a href="login.html">登入</a></li>
+        <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="send">
+      <div class="data">
+          <div class="transport">
+              <h1>運送</h1>
+              <div class="chart">
+                  <ul>
+                      <li class="round" style="background-color: white">
+                          <i class="fas fa-check"></i>
+                      </li>
+                      <li class="line"></li>
+                      <li class="round">
+                          <div class="in-round"></div>
+                      </li>
+                      <li class="line"></li>
+                      <li class="round">
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <form action="#">
+              <p>信用卡卡號</p>
+              <div class="card">
+                  <input type="text" placeholder="9012-3456-7890-1234">
+                  <p><i class="far fa-credit-card"></i></p>
+              </div>
+              <p>持卡人姓名</p>
+              <div class="cardname">
+                  <input type="text" placeholder="王" class="first">
+                  <input type="text" placeholder="小明">
+              </div>
+              <p>有效期限</p>
+              <div class="deadline">
+                  <div class="month">
+                      <input type="text" placeholder="月">
+                      <p><i class="fas fa-caret-up"></i><br><i class="fas fa-caret-down"></i></p>
+                  </div>
+                  <div class="year">
+                      <input type="text" placeholder="年">
+                      <p><i class="fas fa-caret-up"></i><br><i class="fas fa-caret-down"></i></p>
+                  </div>
+              </div>
+              <p>背面末三碼</p>
+              <div class="threenumber">
+                  <input type="text" placeholder="123">
+              </div>
+          </form>
+          <form action="#" class="button">
+              <input type="button" value="下一步" onclick="location.href='check-3.html'">
+          </form>
+      </div>
+
+      <div class="shoppingcar">
+          <div class="order order-summary">
+              <p>訂單摘要</p>
+              <div class="money">
+                  <p>小計<br>運費<br><span>總計</span></p>
+                  <p class="much">NT$ 2,700<br>NT$ 300<br><span>NT$ 3,000</span></p>
+              </div>
+          </div>
+          <div class="shop-list">
+              <p>購物清單</p>
+              <ul>
+                  <li>
+                      <div class="img-1 img"></div>
+                      <p>焦糖馬卡龍 (2)<br><span>NT$ 900</span></p>
+                  </li>
+                  <li>
+                      <div class="img-2 img"></div>
+                      <p>焦糖馬卡龍 (2)<br><span>NT$ 900</span></p>
+                  </li>
+                  <li>
+                      <div class="img-3 img"></div>
+                      <p>焦糖馬卡龍 (2)<br><span>NT$ 900</span></p>
+                  </li>
+              </ul>
+
+          </div>
+      </div>
+    </div>
+
+
+
+    <div class="email">
+      <div class="email-content">
+          <img src="img/logo-light.svg" alt="logo-light">
+          <p>訂閱你我的甜蜜郵件</p>
+      </div>
+      <form action="all.html">
+          <i class="fas fa-envelope"></i>
+          <input type="text" name="email" id="" class="inputEmail" >
+          <input type="button" value="→" class="button">
+      </form>
+    </div>
+    <div class="footer">
+      <div class="left-content">
+          <img src="img/logotype-lg-dark.svg" alt="">
+          <div>
+              <p>07-1234-5678 <br>sweetaste@email.com 800 <br>高雄市新興區幸福路 520 號</p>
+          </div>
+          <ul class="community">
+              <li><img src="img/ic-line@.svg"></li>
+              <li><img src="img/ic-facebook.svg"></li>
+          </ul>
+      </div>
+      <div class="right-content">
+          <img src="img/sm-今天是個吃甜點的好日子.svg" alt="">
+          <div class="clearfix"></div>
+          <p>© 2018 Sweetaste* All Rights Reserved</p>
+      </div>
+    </div>  
+  </div>
+</body>
+</html>
